@@ -1,0 +1,21 @@
+Add of two Numbers
+
+Algorithm:
+1. take one i/p from user
+2. take second i/p from user
+3. perform addition with + operator
+4. return result to user
+
+Test Driven Development(TDD)
+int:
+1. both i/p +ve numbers
+2. both i/p -ve numbers
+3. one num +ve one -ve
+4. one num -ve one +ve
+5. both numbers zero
+float:
+1. both i/p +ve numbers
+2. both i/p -ve numbers
+3. one num +ve one -ve
+4. one num -ve one +ve
+5. both numbers zero

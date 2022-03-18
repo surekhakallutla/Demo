@@ -1,0 +1,16 @@
+{} -> object
+[] -> Array of objects
+
+Object in form of Key and Value:
+JSONObject:
+{
+  "name" : "abc";
+  "contact" : [9059903113,7036281766,9108279011];
+  "isAdmin" : true;
+  "fees" : 100.38;
+  "null" : null;
+  "address" : {
+        "houseAdd" :
+}
+
+}
