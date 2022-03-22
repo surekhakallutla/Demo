@@ -1,0 +1,15 @@
+var readline = require('readline-sync');
+
+let firstNumber = readline.questionInt("Enter value of First Number ");
+console.log("First Number = ",firstNumber);
+
+let secondNumber = readline.questionInt("Enter value of Second Number ");
+console.log("Second Number = ",secondNumber);
+
+let thirdNumber = readline.questionInt("Enter value of Third Number ");
+console.log("Third Number = ",thirdNumber);
+
+function largestNumber() {
+    console.log(firstNumber>secondNumber &&firstNumber>thirdNumber ? "First Number is largest number":(secondNumber>firstNumber && secondNumber>thirdNumber)?"Second Number is largest number":"Third Number is largest number");
+}
+largestNumber();
